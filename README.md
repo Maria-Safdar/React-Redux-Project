@@ -14,8 +14,8 @@ Good Read is a web application that allows users to search for books by typing t
 
 ### Prerequisites
 Ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (version x.x.x)
-- [npm](https://www.npmjs.com/) (version x.x.x) or [yarn](https://yarnpkg.com/) (version x.x.x)
+- [Node.js](https://nodejs.org/) (latest version)
+- [npm](https://www.npmjs.com/) (latest version) 
 
 ### Installation
 
