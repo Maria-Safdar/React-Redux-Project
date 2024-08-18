@@ -1,0 +1,145 @@
+.SingleBook {
+    display: flex;
+    flex-direction: column;
+    background: url('D:\work\goodRead\my-app\single.jpg');
+    background-size: cover; /* This ensures the background image covers the entire container */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+.bookDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: antiquewhite;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bookDetails p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .h2 {
+    font-size: 3rem; /* Increase font size */
+    margin-bottom: 10px;
+    text-align: center;
+    color: #dde9e8; /* Update color to a teal shade */
+    font-family: 'Roboto', sans-serif; /* Apply a specific font family */
+    font-style: italic; /* Use italic font style */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow for a sophisticated look */
+  }
+  .loadingMessage {
+    color: white;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+  .bookDetailsCard {
+    max-width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px; 
+  }
+  
+  .link:hover {
+    color: #ffcc80; 
+  }
+
+.allBooksContainer {
+  display: flex;
+  flex-direction: column;
+  background: url('D:\work\goodRead\my-app\chechhkk.png');
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.allBooksHeading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: wheat;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.bookItem {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.bookTitle {
+  font-weight: bold;
+  color: #dde9e8;
+  text-decoration: none;
+  
+}
+
+.bookAuthor {
+  color: wheat;
+}
+
+.loadMoreButton {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: wheat;
+  color: darkbrown;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loadMoreButton:hover {
+  background-color: #dde9e8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('D:\work\goodRead\my-app\bookwallpaper.jpg'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif; /* Assuming Roboto is the desired font */
+  color: #ffffff; /* Set the text color to white or another suitable color */
+}
+
+#signup-container {
+  /* background-image: url('D:\work\goodRead\my-app\sigup back image.jpg');  */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px darkbrown; /* Optional: Add a box shadow for a card-like effect */
+}
+
+#signup-container h1 {
+  margin-bottom: 20px;
+  color: #ffcc80;
+}
+
+#signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#signup-container label {
+  margin-top: 1.5px;
+}
+
+#signup-container input,
+#signup-container button {
+  margin-top: 10px;
+  color: #ffcc80;
+}
+
+  
+  
